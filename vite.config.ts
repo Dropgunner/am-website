@@ -4,7 +4,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: "/",  // This ensures the site works with both GitHub Pages and custom domains
+  base: "/am-website/",  // Updated for GitHub Pages deployment at /am-website/ subdirectory
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
